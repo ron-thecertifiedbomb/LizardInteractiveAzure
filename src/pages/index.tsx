@@ -20,7 +20,7 @@ export default function Home({ data }: { data: { time: string } }) {
 
   return (
     <div  className="flex flex-col h-screen justify-center items-center gap-2 bg-black">
-      <h1 className=" text-3xl text-white">Welcome to Next.js hosted in Azure</h1>
+      <h1 className=" text-3xl text-white">Welcome to Next.js hosted in Azure Ronan is a genius!@</h1>
       <h1 className=" text-2xl  text-white">
         {time &&
           `The time is ${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`}
